@@ -6,8 +6,6 @@
 </p>
  <h2 </h2>
 
-# Exorde-episode-1.3.4
-
 ## Pemasangan menggunakan Docker
 
 ### Update apt
