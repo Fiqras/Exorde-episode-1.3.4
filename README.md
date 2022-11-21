@@ -83,6 +83,11 @@ docker ps -a
 ```
 docker logs -f [Container ID]
 ```
+FYI : Restart modulmu 1/hari, Jika mendapatkan pesan seperti dibawah ini
+```
+[Faucet] Auto-Faucet n° 355  Failure... retrying.
+[Faucet] Auto-Faucet critical Failure. Tried  10  times. Giving up. Please report this error.
+```
 
 # Info Tambahan
 
@@ -91,7 +96,7 @@ Jika mendapatkan pesan seperti ini, anda sudah dijalan yang benar.
 Could not read ConfigRegistry  4  times in a row. The Network might be in trouble, check Discord for any update.
 ```
 
-## Logging_level
+### Logging_level
 
 | Logging level | Keterangan |
 |---------------|------------|
@@ -103,7 +108,7 @@ Could not read ConfigRegistry  4  times in a row. The Network might be in troubl
 
 > Pakai log 2 atau 3 saja, ga usah jadi manusia perfect, kalau 5 gpp auto mining DANA/OVO
 
-## Cara restart Docker
+### Cara restart Docker
 1. Cek dockernya dulu
 
     ```
@@ -115,7 +120,7 @@ Could not read ConfigRegistry  4  times in a row. The Network might be in troubl
     docker restart [Container ID] 
     ```
 
-## Cara Update Docker image:
+### Cara Update Docker image:
 
 Jika menemukan error, dan ingin instal baru :
 1. Stop dan hapus semua containers Exorde CLI:
