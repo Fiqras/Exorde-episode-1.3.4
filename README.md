@@ -53,7 +53,7 @@ docker --version
 
 ### Unduh paket Exorde
 
-2. Jalankan program dengan autorestart:
+Jalankan program :
 
    ```bash
    docker run \
