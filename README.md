@@ -54,7 +54,7 @@ docker --version
    -d \
    --restart unless-stopped \
    --pull always \
-   --name (NAMA MODULMU) \
+   --name exorde-cli \
    rg.fr-par.scw.cloud/exorde-labs/exorde-cli \
    -m <ETH ADDRESSMU> \
    -l <LOGGING_LEVEL>
@@ -72,7 +72,17 @@ docker --version
    -m 0x0F67059ea5c125104E46B46769184dB6DC405C42 \
    -l 2
    ```
-disini agak lama, tungguin saja.
+> disini agak lama, tungguin saja.
+
+### Cek apakah Docker sudah terpasang
+
+```
+docker ps -a
+```
+
+```
+docker logs -f [CONTAINER ID]
+```
 
 # Info Tambahan
 
@@ -80,7 +90,6 @@ Jika mendapatkan pesan seperti ini, anda sudah dijalan yang benar.
 ```[Init Version Check] Current Module Version:  1.3.4
 Could not read ConfigRegistry  4  times in a row. The Network might be in trouble, check Discord for any update.
 ```
-Jika mendapatkan pesan seperti ini, anda sudah dijalan yang benar.
 
 ## Logging_level
 
@@ -92,7 +101,7 @@ Jika mendapatkan pesan seperti ini, anda sudah dijalan yang benar.
 |3|Log validasi dan scrapping|
 |4|Log validasi (detail) + log scrapping (untuk troubleshoot)
 
-Pakai log 2 atau 3 saja, ga usah jadi manusia perfect, kalau 5 gpp auto mining DANA/OVO
+> Pakai log 2 atau 3 saja, ga usah jadi manusia perfect, kalau 5 gpp auto mining DANA/OVO
 
 ## Cara Update Docker image:
 
