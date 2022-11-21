@@ -81,7 +81,7 @@ docker ps -a
 ```
 
 ```
-docker logs -f [CONTAINER ID]
+docker logs -f [Container ID]
 ```
 
 # Info Tambahan
@@ -102,6 +102,18 @@ Could not read ConfigRegistry  4  times in a row. The Network might be in troubl
 |4|Log validasi (detail) + log scrapping (untuk troubleshoot)
 
 > Pakai log 2 atau 3 saja, ga usah jadi manusia perfect, kalau 5 gpp auto mining DANA/OVO
+
+## Cara restart Docker
+1. Cek dockernya dulu
+
+    ```
+    docker ps
+    ```
+    setelah muncul beberapa list :
+
+    ``` 
+    docker restart [Container ID] 
+    ```
 
 ## Cara Update Docker image:
 
