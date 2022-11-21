@@ -4,6 +4,13 @@
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/5845056?v=4" width="200px" /></>
 </p>
+<p align="center">
+  Thanks to
+</p> 
+
+<p align="center">
+  <a href="https://t.me/Pepoy_Crypto"><img src="https://img.shields.io/badge/Telegram-%230088cc.svg?&style=for-the-badge&logo=telegram&logoColor=white" /> <br>
+</p>
  <h2 </h2>
 
 ## Pemasangan menggunakan Docker
