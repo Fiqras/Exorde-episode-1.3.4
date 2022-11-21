@@ -1,3 +1,11 @@
+<h1 align="center">السلام عليكم </h1>
+
+
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/5845056?v=4" width="200px" /></>
+</p>
+ <h2 </h2>
+
 # Exorde-episode-1.3.4
 
 ## Pemasangan menggunakan Docker
