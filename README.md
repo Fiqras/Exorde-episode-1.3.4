@@ -105,9 +105,8 @@ FYI : Restart modulmu 1/hari, Jika mendapatkan pesan seperti dibawah ini
 # Info Tambahan
 
 Jika mendapatkan pesan seperti ini, anda sudah dijalan yang benar.
-```[Init Version Check] Current Module Version:  1.3.4
+> [Init Version Check] Current Module Version:  1.3.4
 Could not read ConfigRegistry  4  times in a row. The Network might be in trouble, check Discord for any update.
-```
 
 ### Logging_level
 
