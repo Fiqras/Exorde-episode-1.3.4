@@ -101,7 +101,10 @@ FYI : Restart modulmu 1/hari, Jika mendapatkan pesan seperti dibawah ini
 [Faucet] Auto-Faucet n° 355  Failure... retrying.
 [Faucet] Auto-Faucet critical Failure. Tried  10  times. Giving up. Please report this error.
 ```
-
+atau
+```
+  Could not read ConfigRegistry  4  times in a row. The Network might be in trouble, check Discord for any update
+```
 # Info Tambahan
 
 Jika mendapatkan pesan seperti ini, anda sudah dijalan yang benar.
