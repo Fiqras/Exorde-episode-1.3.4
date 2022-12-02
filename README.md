@@ -96,7 +96,7 @@ docker ps -a
 ```
 docker logs -f [Container ID]
 ```
-FYI : Restart modulmu 1/hari, Jika mendapatkan pesan seperti dibawah ini
+FYI : Restart modulmu jika mendapatkan pesan seperti dibawah ini
 ```
 [Faucet] Auto-Faucet n° 355  Failure... retrying.
 [Faucet] Auto-Faucet critical Failure. Tried  10  times. Giving up. Please report this error.
