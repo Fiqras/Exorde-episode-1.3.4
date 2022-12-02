@@ -68,7 +68,7 @@ Jalankan program :
    --restart unless-stopped \
    --pull always \
    --name exorde-cli \
-   rg.fr-par.scw.cloud/exorde-labs/exorde-cli \
+   exordelabs/exorde-cli \
    -m <ETH ADDRESSMU> \
    -l <LOGGING_LEVEL>
    ```
@@ -81,7 +81,7 @@ Jalankan program :
    --restart unless-stopped \
    --pull always \
    --name exorde-cli \
-   rg.fr-par.scw.cloud/exorde-labs/exorde-cli \
+   exordelabs/exorde-cli \
    -m 0x0F67059ea5c125104E46B46769184dB6DC405C42 \
    -l 2
    ```
