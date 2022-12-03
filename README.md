@@ -45,9 +45,11 @@ echo \
 ```
 
 ### Unduh dan pasang Docker
-
 ```
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+apt update
+```
+```
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 ```
 
 ### Cek apakah Docker sudah terpasang
